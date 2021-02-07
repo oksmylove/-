@@ -9,14 +9,7 @@ def string_comparison(a: str, b: str):
             return 'OK'
         else:
             return 'KO'
-
 if __name__ == '__main__':
 
-    print(string_comparison('aaaaa', 'aa*'))
-    print(string_comparison('aaaaa', 'a********'))
-    print(string_comparison('aaaaa', 'b***aaa'))
-    print(string_comparison('aaaaa', ''))
-    print(string_comparison('aaaaa', 'aaaaa'))
-    print(string_comparison('aaaaa', 'aaaa'))
-    print(string_comparison('aaaaa', 'daf'))
-    print(string_comparison('aaaaa', '****'))
+    print(string_comparison(str(input()),
+                            str(input())))
